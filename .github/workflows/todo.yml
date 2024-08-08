@@ -2,7 +2,7 @@ name: Django workflow
 run-name: Testing Github Actions
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
 
 jobs:
   build:
